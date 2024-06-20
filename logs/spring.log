@@ -1,0 +1,54 @@
+2024-06-20T10:35:28.245+08:00  INFO 8240 --- [restartedMain] cn.zwz.ZwzApplication                    : Starting ZwzApplication using Java 17 with PID 8240 (F:\back\target\classes started by Lenovo in F:\back)
+2024-06-20T10:35:28.255+08:00  INFO 8240 --- [restartedMain] cn.zwz.ZwzApplication                    : No active profile set, falling back to 1 default profile: "default"
+2024-06-20T10:35:28.353+08:00  INFO 8240 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-06-20T10:35:28.353+08:00  INFO 8240 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-06-20T10:35:31.003+08:00  INFO 8240 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2024-06-20T10:35:31.004+08:00  INFO 8240 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-20T10:35:31.190+08:00  INFO 8240 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 175 ms. Found 1 JPA repository interfaces.
+2024-06-20T10:35:31.207+08:00  INFO 8240 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2024-06-20T10:35:31.209+08:00  INFO 8240 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-06-20T10:35:31.245+08:00  INFO 8240 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface cn.zwz.data.dao.LogDao; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2024-06-20T10:35:31.246+08:00  INFO 8240 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 22 ms. Found 0 Redis repository interfaces.
+2024-06-20T10:35:31.501+08:00  INFO 8240 --- [restartedMain] faultConfiguringBeanFactoryPostProcessor : No bean named 'errorChannel' has been explicitly defined. Therefore, a default PublishSubscribeChannel will be created.
+2024-06-20T10:35:31.517+08:00  INFO 8240 --- [restartedMain] faultConfiguringBeanFactoryPostProcessor : No bean named 'integrationHeaderChannelRegistry' has been explicitly defined. Therefore, a default DefaultHeaderChannelRegistry will be created.
+2024-06-20T10:35:32.265+08:00  INFO 8240 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'redisExceptionThrowsConfig' of type [cn.zwz.basics.redis.RedisExceptionThrowsConfig$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-06-20T10:35:33.192+08:00  INFO 8240 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2024-06-20T10:35:33.208+08:00  INFO 8240 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-06-20T10:35:33.208+08:00  INFO 8240 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.8]
+2024-06-20T10:35:33.423+08:00  INFO 8240 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-06-20T10:35:33.423+08:00  INFO 8240 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 5058 ms
+2024-06-20T10:35:33.865+08:00  INFO 8240 --- [restartedMain] org.redisson.Version                     : Redisson 3.21.3
+2024-06-20T10:35:34.625+08:00  INFO 8240 --- [redisson-netty-2-6] o.r.c.pool.MasterPubSubConnectionPool    : 1 connections initialized for localhost/127.0.0.1:6379
+2024-06-20T10:35:34.792+08:00  INFO 8240 --- [redisson-netty-2-20] o.r.c.pool.MasterConnectionPool          : 24 connections initialized for localhost/127.0.0.1:6379
+2024-06-20T10:35:35.131+08:00  INFO 8240 --- [restartedMain] c.z.basics.baseClass.BeansConfiguration  : 初始化PathMatcher成功
+2024-06-20T10:35:36.789+08:00  INFO 8240 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-20T10:35:36.888+08:00  INFO 8240 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.2.Final
+2024-06-20T10:35:36.891+08:00  INFO 8240 --- [restartedMain] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2024-06-20T10:35:37.102+08:00  INFO 8240 --- [restartedMain] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2024-06-20T10:35:37.257+08:00  INFO 8240 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-06-20T10:35:37.338+08:00  INFO 8240 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2024-06-20T10:35:39.322+08:00  INFO 8240 --- [restartedMain] org.hibernate.orm.dialect                : HHH035001: Using dialect: org.hibernate.dialect.MySQLDialect, version: 5.7.24
+2024-06-20T10:35:39.802+08:00  INFO 8240 --- [restartedMain] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2024-06-20T10:35:41.025+08:00  INFO 8240 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-06-20T10:35:43.640+08:00  INFO 8240 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-20T10:35:45.657+08:00  INFO 8240 --- [restartedMain] c.z.basics.baseClass.BeansConfiguration  : 初始化线程池成功
+2024-06-20T10:35:45.762+08:00  WARN 8240 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-06-20T10:35:46.899+08:00  INFO 8240 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2024-06-20T10:35:47.079+08:00  INFO 8240 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@6fc77042, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1938927f, org.springframework.security.web.context.SecurityContextHolderFilter@540d52eb, org.springframework.security.web.header.HeaderWriterFilter@9186365, org.springframework.web.filter.CorsFilter@79c9455b, org.springframework.security.web.authentication.logout.LogoutFilter@7be1adb4, cn.zwz.basics.security.jwt.JwtTokenOncePerRequestFilter@7632cdf5, cn.zwz.basics.security.validate.ImageValidateFilter$$SpringCGLIB$$0@2553056c, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@4249001a, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6805ff24, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@70e47e78, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@23a387d9, org.springframework.security.web.session.SessionManagementFilter@1b87f6ac, org.springframework.security.web.access.ExceptionTranslationFilter@111b3c6e, org.springframework.security.web.access.intercept.AuthorizationFilter@2196ee1d]
+2024-06-20T10:35:48.214+08:00  INFO 8240 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-06-20T10:35:48.616+08:00  INFO 8240 --- [restartedMain] o.s.i.endpoint.EventDrivenConsumer       : Adding {logging-channel-adapter:_org.springframework.integration.errorLogger} as a subscriber to the 'errorChannel' channel
+2024-06-20T10:35:48.617+08:00  INFO 8240 --- [restartedMain] o.s.i.channel.PublishSubscribeChannel    : Channel 'application.errorChannel' has 1 subscriber(s).
+2024-06-20T10:35:48.618+08:00  INFO 8240 --- [restartedMain] o.s.i.endpoint.EventDrivenConsumer       : started bean '_org.springframework.integration.errorLogger'
+2024-06-20T10:35:48.643+08:00  INFO 8240 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2024-06-20T10:35:48.684+08:00  INFO 8240 --- [restartedMain] cn.zwz.ZwzApplication                    : Started ZwzApplication in 21.421 seconds (process running for 23.416)
+2024-06-20T10:35:49.279+08:00  INFO 8240 --- [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-20T10:35:49.280+08:00  INFO 8240 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-06-20T10:35:49.283+08:00  INFO 8240 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2024-06-20T10:40:13.200+08:00  INFO 8240 --- [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2024-06-20T10:40:13.223+08:00  INFO 8240 --- [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2024-06-20T10:40:13.258+08:00  INFO 8240 --- [SpringApplicationShutdownHook] o.s.i.endpoint.EventDrivenConsumer       : Removing {logging-channel-adapter:_org.springframework.integration.errorLogger} as a subscriber to the 'errorChannel' channel
+2024-06-20T10:40:13.259+08:00  INFO 8240 --- [SpringApplicationShutdownHook] o.s.i.channel.PublishSubscribeChannel    : Channel 'application.errorChannel' has 0 subscriber(s).
+2024-06-20T10:40:13.259+08:00  INFO 8240 --- [SpringApplicationShutdownHook] o.s.i.endpoint.EventDrivenConsumer       : stopped bean '_org.springframework.integration.errorLogger'
+2024-06-20T10:40:13.273+08:00  INFO 8240 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-06-20T10:40:13.283+08:00  INFO 8240 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2024-06-20T10:40:13.299+08:00  INFO 8240 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
